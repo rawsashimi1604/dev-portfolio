@@ -66,9 +66,9 @@ function Navbar() {
       )}
 
       {showMenu && (
-        <div className="md:hidden">
+        <div className="md:hidden w-screen h-screen fixed top-0 left-0">
           {/* Mobile Menu Mask */}
-          <div className="fixed bg-gray-300 top-0 right-0 w-screen h-screen opacity-50"></div>
+          <div className="fixed bg-gray-300 top-0 left-0 w-screen h-screen opacity-50"></div>
 
           {/* Mobile Menu */}
           <ul className="fixed bg-white top-0 right-0 w-4/5 h-screen z-50 shadow p-4 flex flex-col gap-2 animate__animated animate__fadeInRight">
