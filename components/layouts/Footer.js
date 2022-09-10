@@ -11,7 +11,7 @@ function Footer() {
 
       <div className="flex gap-4 font-medium text-lg">
         <a
-          href="https://github.com/rawsashimi1604/Poke_TCG_DB"
+          href="https://github.com/rawsashimi1604/"
           className="transition-all duration-200 active:text-slate-700 hover:text-slate-700"
         >
           <BsGithub className="w-6 h-6" />
