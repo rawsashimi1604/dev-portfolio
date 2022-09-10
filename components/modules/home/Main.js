@@ -1,20 +1,18 @@
-import React from 'react'
+import React from "react";
 
-import HeadlineText from '@/components/common/HeadlineText'
-import MoreLink from '@/components/common/MoreLink'
-import Experience from './Experience'
-import Projects from './Projects'
+import HeadlineText from "@/components/common/HeadlineText";
+import MoreLink from "@/components/common/MoreLink";
+import Experience from "./Experience";
+import Projects from "./Projects";
 
 function Main() {
   return (
-    <main className='relative p-4 pb-0 font-raleway overflow-y-scroll'>
-      
+    <main className="relative p-4 pb-0 font-raleway overflow-y-scroll">
       {/* Experience */}
       <Experience />
 
       {/* Projects */}
       <Projects />
-      
 
       {/* Blogposts */}
       {/* <section className='mb-12'>
@@ -33,9 +31,8 @@ function Main() {
 
         <MoreLink href="#"/>
       </section> */}
-
     </main>
-  )
+  );
 }
 
-export default Main
+export default Main;
