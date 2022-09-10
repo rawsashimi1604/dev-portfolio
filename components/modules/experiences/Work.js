@@ -31,7 +31,7 @@ function Work() {
               <div className="gap-1 flex flex-wrap text-sm">
                 {job.technologies.map((tech, j) => {
                   return (
-                    <span className="px-2 py-1 rounded-lg bg-gray-300">
+                    <span className="px-2 py-1 rounded-lg bg-gray-300" key={j}>
                       {tech}
                     </span>
                   );
