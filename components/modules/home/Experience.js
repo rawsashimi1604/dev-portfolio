@@ -6,7 +6,7 @@ import MoreLink from "@/components/common/MoreLink";
 
 function Experience() {
   return (
-    <section className="mb-6 animate__animated animate__fadeIn animate__delay-1s">
+    <section className="mb-6 animate__animated animate__fadeIn animate__delay-2s">
       <HeadlineText text="MY EXPERIENCE" />
 
       <div className="">

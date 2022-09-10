@@ -1,15 +1,22 @@
 import React from "react";
 
-import HeadlineText from "@/components/common/HeadlineText";
-import MoreLink from "@/components/common/MoreLink";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import About from "./About";
+import Skills from "./Skills";
 
 function Main() {
   return (
     <main className="relative p-4 pb-0 font-raleway">
+
+      {/* About */}
+      <About />
+
       {/* Experience */}
-      <Experience />
+      {/* <Experience /> */}
+
+      {/* Skills */}
+      <Skills />
 
       {/* Projects */}
       <Projects />
