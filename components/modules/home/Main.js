@@ -8,7 +8,6 @@ import Skills from "./Skills";
 function Main() {
   return (
     <main className="relative p-4 pb-0 font-raleway">
-
       {/* About */}
       <About />
 
