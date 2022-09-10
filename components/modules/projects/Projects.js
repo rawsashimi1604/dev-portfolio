@@ -6,15 +6,13 @@ import MoreLink from "@/components/common/MoreLink";
 
 import { BsGithub } from "react-icons/bs";
 
-const PROJECT_DISPLAY_COUNT = 3;
-
 function Projects() {
   return (
-    <section className="mb-6 animate__animated animate__fadeIn animate__delay-2s">
+    <section className="mb-6 animate__animated animate__fadeIn animate__slow">
       <HeadlineText text="MY PROJECTS" />
 
       <div>
-        {projects.slice(0, PROJECT_DISPLAY_COUNT).map((project, i) => {
+        {projects.map((project, i) => {
           return (
             <div
               className="border-gray-700 bg-gray-50 shadow-md p-2.5 flex flex-col relative mb-4"
@@ -49,8 +47,6 @@ function Projects() {
           );
         })}
       </div>
-
-      <MoreLink href="/projects" />
     </section>
   );
 }

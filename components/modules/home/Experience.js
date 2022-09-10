@@ -6,7 +6,7 @@ import MoreLink from "@/components/common/MoreLink";
 
 function Experience() {
   return (
-    <section className="mb-6">
+    <section className="mb-6 animate__animated animate__fadeIn animate__delay-1s">
       <HeadlineText text="MY EXPERIENCE" />
 
       <div className="">
@@ -29,7 +29,7 @@ function Experience() {
                 })}
               </ul>
 
-              <div className="gap-1 flex flex-wrap text-sm justify-between">
+              <div className="gap-1 flex flex-wrap text-sm">
                 {job.technologies.map((tech, j) => {
                   return (
                     <span className="px-2 py-1 rounded-lg bg-gray-300">

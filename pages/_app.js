@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import dynamic from "next/dynamic";
+import "animate.css";
 import Navbar from "@/components/layouts/Navbar";
 
 function MyApp({ Component, pageProps }) {
