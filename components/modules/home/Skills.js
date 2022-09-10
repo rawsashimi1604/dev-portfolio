@@ -70,7 +70,7 @@ function Skills() {
       <div className='grid grid-cols-3 lg:grid-cols-4 gap-4'>
         {skills.map((skill, i) => {
           return (
-            <div className='flex flex-col gap-3 justify-center items-center'>
+            <div className='flex flex-col gap-3 justify-center items-center' key={i}>
               <span>
                 {skill.icon}
               </span>
