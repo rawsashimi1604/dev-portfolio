@@ -7,7 +7,7 @@ import Projects from "./Projects";
 
 function Main() {
   return (
-    <main className="relative p-4 pb-0 font-raleway overflow-y-scroll">
+    <main className="relative p-4 pb-0 font-raleway">
       {/* Experience */}
       <Experience />
 

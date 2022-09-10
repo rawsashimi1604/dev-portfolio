@@ -2,12 +2,11 @@ import React from "react";
 import jobs from "data/jobs";
 
 import HeadlineText from "@/components/common/HeadlineText";
-import MoreLink from "@/components/common/MoreLink";
 
-function Experience() {
+function Work() {
   return (
     <section className="mb-6">
-      <HeadlineText text="MY EXPERIENCE" />
+      <HeadlineText text="WORK" />
 
       <div className="">
         {jobs.map((job, i) => {
@@ -29,7 +28,7 @@ function Experience() {
                 })}
               </ul>
 
-              <div className="gap-1 flex flex-wrap text-sm justify-between">
+              <div className="gap-1 flex flex-wrap text-sm">
                 {job.technologies.map((tech, j) => {
                   return (
                     <span className="px-2 py-1 rounded-lg bg-gray-300">
@@ -42,10 +41,8 @@ function Experience() {
           );
         })}
       </div>
-
-      <MoreLink href="/experience" />
     </section>
   );
 }
 
-export default Experience;
+export default Work;

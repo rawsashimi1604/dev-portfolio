@@ -1,13 +1,14 @@
-import Navbar from "@/components/layouts/Navbar";
-import Header from "@/components/modules/home/Header";
+import Header from "@/components/layouts/Header";
 import Main from "@/components/modules/home/Main";
-import Footer from "@/components/modules/home/Footer";
+import Footer from "@/components/layouts/Footer";
 
 export default function Home() {
   return (
     <div className="">
-      <Navbar />
-      <Header />
+      <Header
+        title="Hello, my name is Gavin."
+        subtitle="I am a 2nd year Software Engineering major based in Singapore. Currently I'm studying at Singapore Institute of Technology and learning more about web development."
+      />
       <Main />
       <Footer />
     </div>
