@@ -34,7 +34,7 @@ function Navbar() {
       <ul className="hidden md:flex gap-4 text-xs font-bold uppercase">
         {menu.map((menuItem, i) => {
           return (
-            <li className="relative">
+            <li className="relative" key={i}>
               <Link href={menuItem.href}>
                 <a>{menuItem.label}</a>
               </Link>
