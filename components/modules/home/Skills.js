@@ -67,7 +67,7 @@ function Skills() {
     <section className="mb-6 animate__animated animate__fadeIn animate__delay-2s text-lg ">
       <HeadlineText text="SKILLS" />
       
-      <div className='grid grid-cols-3 lg:grid-cols-4 gap-4'>
+      <div className='grid grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-4'>
         {skills.map((skill, i) => {
           return (
             <div className='flex flex-col gap-3 justify-center items-center' key={i}>
