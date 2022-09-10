@@ -6,7 +6,7 @@ import { BsEnvelope, BsGithub, BsLinkedin } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className="p-4">
+    <footer className="p-4 mb-2">
       <HeadlineText text="CONNECT" />
 
       <div className="flex gap-4 font-medium text-lg">

@@ -29,7 +29,7 @@ function Navbar() {
       </a>
 
       {/* Menu */}
-      <ul className="flex gap-4 text-xs font-bold uppercase">
+      <ul className="hidden md:flex gap-4 text-xs font-bold uppercase">
         {menu.map((menuItem, i) => {
           return (
             <li className="relative">
