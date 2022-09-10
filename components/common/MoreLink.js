@@ -2,7 +2,7 @@ import React, { useState, } from 'react'
 
 import { BsArrowRight } from "react-icons/bs"
 
-function MoreLink({ href }) {
+function MoreLink({ href = "#" }) {
 
   const [isHovered, setIsHovered] = useState(false);
 
