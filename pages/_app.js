@@ -5,7 +5,7 @@ import Navbar from "@/components/layouts/Navbar";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="container mx-auto px-1">
+      <div className="container mx-auto px-1 text-black bg-white">
         <Navbar />
         <Component {...pageProps} />
       </div>
