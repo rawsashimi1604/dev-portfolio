@@ -11,7 +11,7 @@ function Experience() {
       <Head>
         <title>Gavin Loo - Developer - Experience</title>
       </Head>
-      <div className="bg-white">
+      <div className="bg-white text-black">
         <Header title="Experiences" subtitle="Work and education" />
         <Main />
         <Footer />

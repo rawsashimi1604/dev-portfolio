@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Gavin Loo - Developer - Home</title>
       </Head>
-      <div className="bg-white">
+      <div className="bg-white text-black">
         <Header
           title="Hello, my name is Gavin."
           subtitle="I am a 2nd year Software Engineering major based in Singapore. Currently I'm studying at Singapore Institute of Technology and learning more about web development."

@@ -11,7 +11,7 @@ function Projects() {
       <Head>
         <title>Gavin Loo - Developer - Projects</title>
       </Head>
-      <div className="bg-white">
+      <div className="bg-white text-black">
         <Header
           title="Projects"
           subtitle="Side projects that I have been tinkering with."
