@@ -60,13 +60,13 @@ function Navbar() {
       {/* Mobile hamburger control */}
       {!showMenu && (
         <GiHamburgerMenu
-          className="w-6 h-6"
+          className="w-6 h-6 md:hidden"
           onClick={() => setShowMenu(true)}
         />
       )}
 
       {showMenu && (
-        <div>
+        <div className="md:hidden">
           {/* Mobile Menu Mask */}
           <div className="fixed bg-gray-300 top-0 right-0 w-screen h-screen opacity-50"></div>
 
