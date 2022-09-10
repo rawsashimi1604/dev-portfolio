@@ -17,7 +17,7 @@ function About() {
           In my free time, you might find me: Jamming along to music, following Leicester City Football Club, scrolling through Reddit, binge eating Japanese food, or playing video games with my friends!
         </div>
       </article>
-      <MoreLink href="/experiences" />
+      <MoreLink href="/experience" />
     </section>
   )
 }
