@@ -5,7 +5,7 @@ import HeadlineText from "@/components/common/HeadlineText";
 
 function School() {
   return (
-    <section className="mb-6 animate__animated animate__fadeIn">
+    <section className="mb-6 animate__animated animate__fadeIn animate__delay-1s">
       <HeadlineText text="EDUCATION" />
 
       <div className="">
