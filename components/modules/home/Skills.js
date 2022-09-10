@@ -3,6 +3,7 @@ import React from "react";
 import HeadlineText from "@/components/common/HeadlineText";
 
 import { AiFillHtml5 } from "react-icons/ai";
+import { FaGitAlt } from 'react-icons/fa'
 import { BsGear } from "react-icons/bs";
 import { DiCss3, DiNodejsSmall, DiReact } from "react-icons/di";
 import {
@@ -64,6 +65,10 @@ const skills = [
   {
     label: "Linux",
     icon: <SiLinux className="h-12 w-12" />,
+  },
+  {
+    label: "Git",
+    icon: <FaGitAlt className="h-12 w-12" />,
   },
   {
     label: "Jira",
