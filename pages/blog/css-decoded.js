@@ -1,5 +1,6 @@
 import React from "react";
 
+import Head from "next/head";
 import blogs from "data/blogs";
 import CSSDecoded from "@/components/blogs/CSSDecoded";
 
