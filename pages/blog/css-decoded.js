@@ -4,7 +4,14 @@ import blogs from "data/blogs";
 import CSSDecoded from "@/components/blogs/CSSDecoded";
 
 function cssDecoded() {
-  return <CSSDecoded data={blogs["css-decoded"]} />;
+  return (
+    <>
+      <Head>
+        <title>CSS Decoded - Gavin Loo</title>
+      </Head>
+      <CSSDecoded data={blogs["css-decoded"]} />
+    </>
+  );
 }
 
 export default cssDecoded;
