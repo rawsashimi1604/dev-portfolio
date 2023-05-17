@@ -7,8 +7,8 @@ export default {
     date: "18 May 2023",
     title: "CSS Decoded",
     subtitle:
-      "Sharing my thoughts on how I think about Cascading Style Sheets (CSS)!",
-    tags: ["CSS", "React", "TailwindCSS"],
+      "Sharing my thoughts on how I think about HTML and Cascading Style Sheets (CSS)!",
+    tags: ["HTML", "CSS", "React", "TailwindCSS"],
     href: "/blog/css-decoded",
     component: <CSSDecoded />,
   },
