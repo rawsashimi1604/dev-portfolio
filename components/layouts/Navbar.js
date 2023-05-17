@@ -12,8 +12,8 @@ const menu = [
     href: "/",
   },
   {
-    label:"Blog",
-    href: "/blog"
+    label: "Blog",
+    href: "/blog",
   },
   {
     label: "Experiences",

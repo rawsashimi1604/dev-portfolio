@@ -7,12 +7,8 @@ export default [
       start: "May 2023",
       end: "Present",
     },
-    descriptionPoints: [
-      "Work in Progress!"
-    ],
-    technologies: [
-      "Work in Progress!"
-    ],
+    descriptionPoints: ["Work in Progress!"],
+    technologies: ["Work in Progress!"],
   },
   {
     logo: "/images/scb.png",
