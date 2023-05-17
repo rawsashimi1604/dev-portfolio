@@ -19,29 +19,29 @@ function CSSDecoded({ data }) {
 
       <article className="mt-6 font-inter">
         <p className="mb-2">
-          Hey everyone, I hope this blog finds you well! I'm Gavin, and this is
-          my very first blog post. It's 1:17am right now, and I couldn't sleep.
+          Hey everyone, I hope this blog finds you well! I&apos;m Gavin, and this is
+          my very first blog post. It&apos;s 1:17am right now, and I couldn&apos;t sleep.
           I realized how much the software community has given me -{" "}
           <i>open-source projects, mentors, and opportunities</i> - and I wanted
-          to contribute and give back somehow. Hopefully, you'll learn something
-          from this article. Anyway, let's get down to business.
+          to contribute and give back somehow. Hopefully, you&apos;ll learn something
+          from this article. Anyway, let&apos;s get down to business.
         </p>
 
         <BlogHeader text={"What exactly is CSS?"} />
         <p className="mb-2">
           What exactly is CSS? Well, Cascading Style Sheets, CSS for short,
-          powers the web's styling. It transformed web design by providing a
+          powers the web&apos;s styling. It transformed web design by providing a
           powerful toolset to manipulate captivating layouts. I like to think of
           it as an HTML enhancer, bringing your HTML tags to life! Each of these
-          HTML tags can be imagined as a "Box," which we'll refer to from now
+          HTML tags can be imagined as a &quot;Box&quot;, which we&apos;ll refer to from now
           on.
         </p>
 
         <BlogHeader text="Everything is a Box! (The recursive nature of HTML/CSS)" />
 
         <p className="mb-2">
-          I've always been a football fan, following the sport since my
-          secondary school days. Let's take one of my favorite news websites,
+          I&apos;ve always been a football fan, following the sport since my
+          secondary school days. Let&apos;s take one of my favorite news websites,
           BBC Football, as an example...
         </p>
 
@@ -54,7 +54,7 @@ function CSSDecoded({ data }) {
         </div>
 
         <p className="mb-2">
-          Due to time constraints (and some degree of sleep deprivation), I've
+          Due to time constraints (and some degree of sleep deprivation), I&apos;ve
           only highlighted the navbar and a few other sections in the image
           above.
         </p>
@@ -96,7 +96,7 @@ function CSSDecoded({ data }) {
         </p>
 
         <p className="mb-2">
-          Next, we have the <b>border</b>. It defines the Box's boundaries and
+          Next, we have the <b>border</b>. It defines the Box&apos;s boundaries and
           can be further customized with various styles. The border acts as a
           visual divider, seperating the content from the padding and gives the
           Box a sense of structure.
@@ -104,7 +104,7 @@ function CSSDecoded({ data }) {
 
         <p className="mb-2">
           Finally, we have the <b>margin</b> - the space between the Box and
-          it's neighbouring Boxes. The margin controls the distance between
+          it&apos;s neighbouring Boxes. The margin controls the distance between
           Boxes, creating an overall composition and visual hierachy of the
           parent Box.
         </p>
@@ -166,7 +166,7 @@ function CSSDecoded({ data }) {
             "Stop overcomplicating everything, everything is just a Box at it's core!"
           }
         />
-        <p className="mb-2">Alright... I'm going to sleep now.</p>
+        <p className="mb-2">Alright... I&apos;m going to sleep now.</p>
       </article>
     </BlogContainer>
   );
