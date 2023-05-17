@@ -6,7 +6,7 @@ import { BsDot } from "react-icons/bs";
 
 function BlogMainPage({ image, author, date, title, subtitle, tags, href }) {
   return (
-    <div className="flex flex-col font-inter">
+    <div className="animate__animated animate__fadeIn flex flex-col font-inter">
       {/* Image */}
       <div className="mb-5">
         <Image
