@@ -3,7 +3,7 @@ export default [
     logo: "/images/sit.png",
     name: "Singapore Institute of Technology",
     degree: "BE - Software Engineering",
-    gpa: "4.2 / 5",
+    gpa: "4.24 / 5",
     studyDates: {
       start: "2021",
       end: "2025",
@@ -17,6 +17,10 @@ export default [
       {
         name: "ICT1002 - Programming Fundamentals",
         grade: "A+",
+      },
+      {
+        name: "ICT1003 - Computer Organisation and Architecture",
+        grade: "A-",
       },
       {
         name: "ICT1005 - Mathematics and Statistics for ICT",
@@ -33,6 +37,10 @@ export default [
       {
         name: "ICT1009 - Object-Oriented Programming",
         grade: "A+",
+      },
+      {
+        name: "ICT2102 - Information Management",
+        grade: "A-",
       },
     ],
   },

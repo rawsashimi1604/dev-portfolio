@@ -12,6 +12,10 @@ const menu = [
     href: "/",
   },
   {
+    label:"Blog",
+    href: "/blog"
+  },
+  {
     label: "Experiences",
     href: "/experience",
   },
