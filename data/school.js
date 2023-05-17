@@ -3,11 +3,12 @@ export default [
     logo: "/images/sit.png",
     name: "Singapore Institute of Technology",
     degree: "BE - Software Engineering",
-    gpa: "4.63 / 5",
+    gpa: "4.2 / 5",
     studyDates: {
       start: "2021",
       end: "2025",
     },
+    others: ["Teaching Assistant - INF1009 Object-Oriented Programming"],
     modules: [
       {
         name: "ICT1001 - Introduction to ICT",

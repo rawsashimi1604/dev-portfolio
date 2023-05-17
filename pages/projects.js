@@ -9,7 +9,7 @@ function Projects() {
   return (
     <>
       <Head>
-        <title>Gavin Loo - Developer - Projects</title>
+        <title>Gavin Loo - Software Engineer - Projects</title>
       </Head>
       <div className="bg-white text-black">
         <Header

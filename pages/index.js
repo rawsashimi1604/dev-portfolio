@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Gavin Loo - Developer - Home</title>
+        <title>Gavin Loo - Software Engineer - Home</title>
       </Head>
       <div className="bg-white text-black">
         <Header

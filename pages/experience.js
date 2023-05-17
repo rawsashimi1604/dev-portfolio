@@ -9,7 +9,7 @@ function Experience() {
   return (
     <>
       <Head>
-        <title>Gavin Loo - Developer - Experience</title>
+        <title>Gavin Loo - Software Engineer - Experience</title>
       </Head>
       <div className="bg-white text-black">
         <Header title="Experiences" subtitle="Work and education" />
