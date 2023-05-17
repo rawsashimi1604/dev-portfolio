@@ -3,7 +3,7 @@ import React from "react";
 import HeadlineText from "@/components/common/HeadlineText";
 
 import { AiFillHtml5 } from "react-icons/ai";
-import { FaGitAlt } from 'react-icons/fa'
+import { FaGitAlt } from "react-icons/fa";
 import { BsGear } from "react-icons/bs";
 import { DiCss3, DiNodejsSmall, DiReact } from "react-icons/di";
 import {
