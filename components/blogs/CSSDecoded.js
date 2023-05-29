@@ -5,6 +5,7 @@ import Image from "next/image";
 import BlogContainer from "../modules/blog/BlogContainer";
 import BlogHeader from "../modules/blog/BlogHeader";
 import CodeBlock from "../common/CodeBlock";
+import Paragraph from "../common/Paragraph";
 
 function CSSDecoded({ data }) {
   return (
@@ -18,32 +19,32 @@ function CSSDecoded({ data }) {
       />
 
       <article className="mt-6 font-inter">
-        <p className="mb-2">
+        <Paragraph>
           Hey everyone, I hope this blog finds you well! I&apos;m Gavin, and this is
           my very first blog post. It&apos;s 1:17am right now, and I couldn&apos;t sleep.
           I realized how much the software community has given me -{" "}
           <i>open-source projects, mentors, and opportunities</i> - and I wanted
           to contribute and give back somehow. Hopefully, you&apos;ll learn something
           from this article. Anyway, let&apos;s get down to business.
-        </p>
+        </Paragraph>
 
         <BlogHeader text={"What exactly is CSS?"} />
-        <p className="mb-2">
+        <Paragraph>
           What exactly is CSS? Well, Cascading Style Sheets, CSS for short,
           powers the web&apos;s styling. It transformed web design by providing a
           powerful toolset to manipulate captivating layouts. I like to think of
           it as an HTML enhancer, bringing your HTML tags to life! Each of these
           HTML tags can be imagined as a &quot;Box&quot;, which we&apos;ll refer to from now
           on.
-        </p>
+        </Paragraph>
 
         <BlogHeader text="Everything is a Box! (The recursive nature of HTML/CSS)" />
 
-        <p className="mb-2">
+        <Paragraph>
           I&apos;ve always been a football fan, following the sport since my
           secondary school days. Let&apos;s take one of my favorite news websites,
           BBC Football, as an example...
-        </p>
+        </Paragraph>
 
         <div className="w-full h-full mb-2">
           <img
@@ -53,23 +54,23 @@ function CSSDecoded({ data }) {
           />
         </div>
 
-        <p className="mb-2">
+        <Paragraph>
           Due to time constraints (and some degree of sleep deprivation), I&apos;ve
           only highlighted the navbar and a few other sections in the image
           above.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           As shown in the image, there is a recursive relationship to each Box.
           The HTML DOM reveals a fundamental truth: every Box can contain more
           Boxes. Everything in web design is encapsulated within these Boxes,
           allowing us to create complex and intricate layouts.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           These Boxes serve as the building blocks of our virtual world,
           providing organization to the content we create.
-        </p>
+        </Paragraph>
 
         <BlogHeader text={"What composites a Box? (The CSS Box Model)"} />
 
@@ -77,96 +78,96 @@ function CSSDecoded({ data }) {
           <img src="/images/blog/css-decoded/boxModel.png" />
         </div>
 
-        <p className="mb-2">
+        <Paragraph>
           A Box consists of four parts:{" "}
           <i>content, padding, border, and margin</i>. These components
           determine the size, spacing, and information within each Box.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           At the core of the Box lies the <b>content</b>, representing the
           actual text, images, or media within the Box. It is the heart of the
           Box, conveying its purpose and message.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           Surrounding the content is <b>padding</b>, which provides space
           between the content and the border. By adjusting the padding, the Box
           gains breathing room and creates a sense of space.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           Next, we have the <b>border</b>. It defines the Box&apos;s boundaries and
           can be further customized with various styles. The border acts as a
-          visual divider, seperating the content from the padding and gives the
+          visual divider, separating the content from the padding and gives the
           Box a sense of structure.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           Finally, we have the <b>margin</b> - the space between the Box and
-          it&apos;s neighbouring Boxes. The margin controls the distance between
-          Boxes, creating an overall composition and visual hierachy of the
+          its neighboring Boxes. The margin controls the distance between
+          Boxes, creating an overall composition and visual hierarchy of the
           parent Box.
-        </p>
+        </Paragraph>
 
         <BlogHeader text={"Techniques for aligning Boxes"} />
 
-        <p className="mb-2">
+        <Paragraph>
           When it comes to aligning Boxes, there are several techniques you can
           use to achieve your desired layout and positioning. Here are a few
           commonly used methods:
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           <b>Flexbox</b>: A powerful CSS layout model that allows you to create
           flexible and responsive designs. By applying the{" "}
           <CodeBlock code="display: flex;" /> property to a parent Box, you can
           control the alignment and distribution of child Boxes using properties
           such as <CodeBlock code="justify-content" /> and{" "}
           <CodeBlock code="align-items" />.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           <b>Grid</b>: Provides a two-dimensional grid system for designing web
           layouts. By defining a parent Box as a grid container, you can align
           the child Boxes horizontally and vertically, resembling a Table
           layout.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           <b>Positioning</b>: CSS positioning offers control over the placement
           of Boxes. You can use the <CodeBlock code="position" /> property along
           with values such as <CodeBlock code="relative, absolute, fixed" /> to
           position your Boxes.
-        </p>
+        </Paragraph>
 
         <BlogHeader text={"Modern tools for Boxes"} />
-        <p className="mb-2">
+        <Paragraph>
           In the modern world of web development, tools have revolutionized the
           way developers create digital experiences. These tools range from
           frameworks like React, Vue.js, and Angular.js to CSS frameworks like
           Tailwind CSS and Bootstrap, enhancing and streamlining development
           workflows.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
-          <b>React:</b> Javascript framworks like React enables us to create
+        <Paragraph>
+          <b>React:</b> Javascript frameworks like React enable us to create
           reusable and modular components. Think of it as OOP (Object-Oriented
           Programming) for the frontend.
-        </p>
+        </Paragraph>
 
-        <p className="mb-2">
+        <Paragraph>
           <b>TailwindCSS:</b> CSS frameworks like Tailwind offer a wide range of
           ready-to-use, inline CSS classes, saving us time and the trouble of
           maintaining a separate CSS file.
-        </p>
+        </Paragraph>
 
         <BlogHeader
           text={
-            "Stop overcomplicating everything, everything is just a Box at it's core!"
+            "Stop overcomplicating everything, everything is just a Box at its core!"
           }
         />
-        <p className="mb-2">Alright... I&apos;m going to sleep now.</p>
+        <Paragraph>Alright... I&apos;m going to sleep now.</Paragraph>
       </article>
     </BlogContainer>
   );
