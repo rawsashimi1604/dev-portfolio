@@ -10,7 +10,6 @@ import Paragraph from "../common/Paragraph";
 function Tradeoffs({ data }) {
   return (
     <BlogContainer title={data.title} subtitle={data.subtitle}>
-
       {/* TAGS */}
       <div className="font-inter flex flex-row items-center gap-2 flex-wrap mb-10">
         {data.tags?.map((tag, i) => {
@@ -49,12 +48,13 @@ function Tradeoffs({ data }) {
         </Paragraph>
 
         <Paragraph>
-          Imagine you're craving some MacDonalds. You have two options: ordering
-          from a food delivery service or taking a walk to a nearby outlet.
-          Choosing the food delivery service offers convenience and saves time,
-          but at the expense of spending a little extra money. On the other
-          hand, walking to the restaurant requires some effort and time, but it
-          saves you money and provides an opportunity to refocus your mind.
+          Imagine you&apos;re craving some MacDonalds. You have two options:
+          ordering from a food delivery service or taking a walk to a nearby
+          outlet. Choosing the food delivery service offers convenience and
+          saves time, but at the expense of spending a little extra money. On
+          the other hand, walking to the restaurant requires some effort and
+          time, but it saves you money and provides an opportunity to refocus
+          your mind.
         </Paragraph>
 
         <Paragraph>
@@ -82,8 +82,8 @@ function Tradeoffs({ data }) {
 
         <Paragraph>
           When it comes to implementing solutions in software, tradeoffs play a
-          significant role in determining the approach. Consider a
-          scenario where we need to retrieve products from an e-commerce store.
+          significant role in determining the approach. Consider a scenario
+          where we need to retrieve products from an e-commerce store.
           Initially, we could opt for a simple and readable solution using a for
           loop. This straightforward approach may have a time complexity of
           O(n).
@@ -103,7 +103,8 @@ function Tradeoffs({ data }) {
         <Paragraph>
           However, there might be a tempting alternative—a more complex and
           efficient algorithm involving heavy indexing on the database and
-          applying binary search. This is highly optimized and helps improve our performance greatly.
+          applying binary search. This is highly optimized and helps improve our
+          performance greatly.
         </Paragraph>
 
         <div className="my-6">
@@ -119,9 +120,9 @@ function Tradeoffs({ data }) {
           faster performance. But is it really the right choice? Consider the
           context of the problem. What if the database contains only 10
           products? In such cases, introducing all the complexity might be
-          unnecessary. Let's say the first method takes 0.1ms to retrieve each
-          row of data, while the second method is 30% faster, taking 0.07ms per
-          row.
+          unnecessary. Let&apos;s say the first method takes 0.1ms to retrieve
+          each row of data, while the second method is 30% faster, taking 0.07ms
+          per row.
         </Paragraph>
 
         <Paragraph>
@@ -146,10 +147,10 @@ function Tradeoffs({ data }) {
         <BlogHeader text={"You Ain't Gonna Need It"} />
 
         <Paragraph>
-          <b>YAGNI</b>, an acronym for "You Ain't Gonna Need It," is a
-          fundamental principle in software development. It encourages us to
-          resist the temptation of adding functionality or features that are not
-          currently required. The philosophy behind YAGNI is rooted in
+          <b>YAGNI</b>, an acronym for &quot;You Ain&apos;t Gonna Need It,&quot;
+          is a fundamental principle in software development. It encourages us
+          to resist the temptation of adding functionality or features that are
+          not currently required. The philosophy behind YAGNI is rooted in
           simplicity, efficiency, and avoiding unnecessary complexity. By
           adhering to this principle, we can avoid wasting time and effort on
           developing features that may never be utilized or add unnecessary
@@ -185,9 +186,9 @@ function Tradeoffs({ data }) {
           its philosophy: <b>Art, Science, and Communication</b>. The <b>Art</b>{" "}
           encompases our expression, from applying principles like SOLID and
           YAGNI to crafting code in a testable manner and employing design
-          patterns like Domain Driven Design. It's the creative side of software
-          engineering, where we design beautiful system architectures and coding
-          solutions.
+          patterns like Domain Driven Design. It&apos;s the creative side of
+          software engineering, where we design beautiful system architectures
+          and coding solutions.
         </Paragraph>
 
         <Paragraph>
@@ -200,28 +201,30 @@ function Tradeoffs({ data }) {
         </Paragraph>
 
         <Paragraph>
-          <b>Communication</b> is the glue that holds everything together. It's
-          about understanding requirements, engaging stakeholders effectively,
-          and scoping projects appropriately. Good communication ensures that
-          our team is aligned, well-guided, and capable of building solutions
-          that meet the needs of our clients. It accounts for factors like team
-          expertise and project requirements.
+          <b>Communication</b> is the glue that holds everything together.
+          It&apos;s about understanding requirements, engaging stakeholders
+          effectively, and scoping projects appropriately. Good communication
+          ensures that our team is aligned, well-guided, and capable of building
+          solutions that meet the needs of our clients. It accounts for factors
+          like team expertise and project requirements.
         </Paragraph>
 
         <Paragraph>
           Finding the right balance among these pillars is crucial. If we focus
-          too much on <b>Art and Science</b> without adequate communication, we
-          risk delivering a product that doesn't align with client needs. On the
-          other hand, overemphasizing <b>Science and Communication</b> may
+          too much on <b>Art and Science</b> without adequate{" "}
+          <b>Communication</b>, we risk delivering a product that doesn&apos;t
+          align with client needs. On the other hand, overemphasizing{" "}
+          <b>Science and Communication</b>, without adequate <b>Art</b> may
           neglect maintainability, leading to technical debt and long-term
           issues. Similarly, an excessive focus on <b>Art and Communication</b>{" "}
+          without adequate <b>Science</b>{" "}
           could result in a product that lacks operational capabilities.
         </Paragraph>
 
         <Paragraph>
           By understanding and exploring the tradeoffs inherent in the three
           pillars of software engineering, we gain valuable insights into how to
-          strike the right balance. It's a delicate touch, that comes with
+          strike the right balance. It&apos;s a delicate touch, that comes with
           experience, something that I strive to achieve someday. Might write a
           blog on the three pillars and my thoughts in the future!
         </Paragraph>

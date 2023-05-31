@@ -31,6 +31,10 @@ function Navbar() {
   // Controls Mobile Hamburger menu state
   const [showMenu, setShowMenu] = useState(false);
 
+  function isDotRendered(menuItem) {
+    return router.pathname === menuItem.href
+  }
+
   return (
     <nav className="font-raleway sticky top-0 z-50 p-4  bg-white flex justify-between">
       {/* logo */}
@@ -48,7 +52,7 @@ function Navbar() {
               </Link>
 
               {/* Interactive dot */}
-              {router.pathname === menuItem.href && (
+              {isDotRendered(menuItem) && (
                 <BsDot
                   className="animate__animated animate__slow animate__fadeIn absolute left-[50%] -bottom-3.5 lg:-bottom-5 h-7 w-7"
                   style={{
