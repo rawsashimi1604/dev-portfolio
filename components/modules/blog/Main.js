@@ -21,7 +21,7 @@ function Main() {
               href={blogs[key].href}
             />
           );
-        })}
+        }).reverse()}
       </section>
     </main>
   );

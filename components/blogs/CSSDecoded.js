@@ -10,6 +10,21 @@ import Paragraph from "../common/Paragraph";
 function CSSDecoded({ data }) {
   return (
     <BlogContainer title={data.title} subtitle={data.subtitle}>
+
+      {/* TAGS */}
+      <div className="font-inter flex flex-row items-center gap-2 flex-wrap mb-10">
+        {data.tags?.map((tag, i) => {
+          return (
+            <span
+              className="bg-cool-purple text-white/90 text-md px-2 py-1 rounded-lg shadow-md"
+              key={i}
+            >
+              {tag}
+            </span>
+          );
+        })}
+      </div>
+      
       <Image
         src={data.image}
         layout="responsive"

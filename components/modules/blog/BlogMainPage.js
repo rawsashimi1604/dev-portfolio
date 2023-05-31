@@ -47,7 +47,7 @@ function BlogMainPage({ image, author, date, title, subtitle, tags, href }) {
       </div>
 
       {/* Subtitle */}
-      <div className="mb-4">
+      <div className="mb-4 h-10">
         <p className=" font-light text-gray-500 text-xs">{subtitle}</p>
       </div>
 
