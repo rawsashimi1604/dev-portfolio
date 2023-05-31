@@ -35,11 +35,11 @@ function Navbar() {
     <nav className="font-raleway sticky top-0 z-50 p-4  bg-white flex justify-between">
       {/* logo */}
       <Link href="/">
-        <a className="font-extrabold">GAVIN LOO</a>
+        <a className="font-extrabold lg:text-xl">GAVIN LOO</a>
       </Link>
 
       {/* Menu */}
-      <ul className="hidden md:flex gap-4 text-xs font-bold uppercase">
+      <ul className="hidden md:flex gap-4 text-xs lg:text-lg font-bold uppercase">
         {menu.map((menuItem, i) => {
           return (
             <li className="relative" key={i}>
@@ -50,7 +50,7 @@ function Navbar() {
               {/* Interactive dot */}
               {router.pathname === menuItem.href && (
                 <BsDot
-                  className="animate__animated animate__slow animate__fadeIn absolute left-[50%] -bottom-3.5 h-7 w-7"
+                  className="animate__animated animate__slow animate__fadeIn absolute left-[50%] -bottom-3.5 lg:-bottom-5 h-7 w-7"
                   style={{
                     transform: "translate(-50%, 0)",
                   }}
