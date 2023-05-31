@@ -12,4 +12,15 @@ export default {
     href: "/blog/css-decoded",
     component: <CSSDecoded />,
   },
+  "css-decoded": {
+    image: "/images/blog/css.jpg",
+    author: "Gavin Loo",
+    date: "31 May 2023",
+    title: "Tradeoffs in Software Engineering",
+    subtitle:
+      "There is no silver bullet.",
+    tags: ["Software Engineering", "Decision Making", "Architecture", "Life", "Programming"],
+    href: "/blog/css-decoded",
+    component: <CSSDecoded />,
+  },
 };
