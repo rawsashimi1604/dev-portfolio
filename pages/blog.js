@@ -14,7 +14,7 @@ function Blog() {
       <div className="bg-white text-black">
         <Header
           title="Blog Posts"
-          subtitle="Documenting my growth as a software engineer! Pursuing craftsmanship in the art of software engineering..."
+          subtitle="Documenting my growth as a software engineer! Pursuing craftsmanship in software engineering..."
         />
         <Main />
         <Footer />
