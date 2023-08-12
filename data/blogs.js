@@ -34,5 +34,5 @@ export default {
       "Part of the Building an API Gateway series. Understanding the API Gateway Pattern.",
     tags: ["API Gateway", "Architecture", "API", "Microservices"],
     href: "/blog/api-gateway-1",
-  }
+  },
 };

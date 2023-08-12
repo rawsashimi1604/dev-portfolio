@@ -104,8 +104,8 @@ function ApiGatewayOne({ data }) {
             <b>Centralized Location (Simplified Client)</b>: An API Gateway
             offers a unified access point for all external consumers, which
             means clients can interact with a single endpoint rather than
-            managing multiple service endpoints. This simplifies the client&apos;s
-            configuration drastically.
+            managing multiple service endpoints. This simplifies the
+            client&apos;s configuration drastically.
           </Paragraph>
 
           <Paragraph>
