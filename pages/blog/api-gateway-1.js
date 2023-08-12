@@ -8,7 +8,7 @@ function apiGatewayOne() {
   return (
     <div>
       <Head>
-        <title>CSS Decoded - Gavin Loo</title>
+        <title>API Gateway Pattern - Gavin Loo</title>
       </Head>
       <ApiGatewayOne data={blogs["api-gateway-1"]} />
     </div>

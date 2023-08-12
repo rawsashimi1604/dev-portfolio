@@ -26,12 +26,12 @@ export default {
     href: "/blog/tradeoffs",
   },
   "api-gateway-1": {
-    image: "/images/blog/css.jpg",
+    image: "/images/blog/api-gateway-1/network.jpg",
     author: "Gavin Loo",
     date: "12 August 2023",
     title: "Building an API Gateway Part 1: API Gateway Pattern",
     subtitle:
-      "Part of the Building an API Gateway series. Discussing the API Gateway Patterb",
+      "Part of the Building an API Gateway series. Understanding the API Gateway Pattern.",
     tags: ["API Gateway", "Architecture", "API", "Microservices"],
     href: "/blog/api-gateway-1",
   }
