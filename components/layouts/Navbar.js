@@ -32,7 +32,7 @@ function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   function isDotRendered(menuItem) {
-    return router.pathname === menuItem.href
+    return router.pathname === menuItem.href;
   }
 
   return (

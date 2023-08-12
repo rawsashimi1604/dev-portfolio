@@ -10,7 +10,6 @@ import Paragraph from "../common/Paragraph";
 function CSSDecoded({ data }) {
   return (
     <BlogContainer title={data.title} subtitle={data.subtitle}>
-
       {/* TAGS */}
       <div className="font-inter flex flex-row items-center gap-2 flex-wrap mb-10">
         {data.tags?.map((tag, i) => {
@@ -24,7 +23,7 @@ function CSSDecoded({ data }) {
           );
         })}
       </div>
-      
+
       <Image
         src={data.image}
         layout="responsive"
@@ -35,30 +34,31 @@ function CSSDecoded({ data }) {
 
       <article className="mt-6 font-inter">
         <Paragraph>
-          Hey everyone, I hope this blog finds you well! I&apos;m Gavin, and this is
-          my very first blog post. It&apos;s 1:17am right now, and I couldn&apos;t sleep.
-          I realized how much the software community has given me -{" "}
-          <i>open-source projects, mentors, and opportunities</i> - and I wanted
-          to contribute and give back somehow. Hopefully, you&apos;ll learn something
-          from this article. Anyway, let&apos;s get down to business.
+          Hey everyone, I hope this blog finds you well! I&apos;m Gavin, and
+          this is my very first blog post. It&apos;s 1:17am right now, and I
+          couldn&apos;t sleep. I realized how much the software community has
+          given me - <i>open-source projects, mentors, and opportunities</i> -
+          and I wanted to contribute and give back somehow. Hopefully,
+          you&apos;ll learn something from this article. Anyway, let&apos;s get
+          down to business.
         </Paragraph>
 
         <BlogHeader text={"What exactly is CSS?"} />
         <Paragraph>
           What exactly is CSS? Well, Cascading Style Sheets, CSS for short,
-          powers the web&apos;s styling. It transformed web design by providing a
-          powerful toolset to manipulate captivating layouts. I like to think of
-          it as an HTML enhancer, bringing your HTML tags to life! Each of these
-          HTML tags can be imagined as a &quot;Box&quot;, which we&apos;ll refer to from now
-          on.
+          powers the web&apos;s styling. It transformed web design by providing
+          a powerful toolset to manipulate captivating layouts. I like to think
+          of it as an HTML enhancer, bringing your HTML tags to life! Each of
+          these HTML tags can be imagined as a &quot;Box&quot;, which we&apos;ll
+          refer to from now on.
         </Paragraph>
 
         <BlogHeader text="Everything is a Box! (The recursive nature of HTML/CSS)" />
 
         <Paragraph>
           I&apos;ve always been a football fan, following the sport since my
-          secondary school days. Let&apos;s take one of my favorite news websites,
-          BBC Football, as an example...
+          secondary school days. Let&apos;s take one of my favorite news
+          websites, BBC Football, as an example...
         </Paragraph>
 
         <div className="w-full h-full mb-2">
@@ -70,9 +70,9 @@ function CSSDecoded({ data }) {
         </div>
 
         <Paragraph>
-          Due to time constraints (and some degree of sleep deprivation), I&apos;ve
-          only highlighted the navbar and a few other sections in the image
-          above.
+          Due to time constraints (and some degree of sleep deprivation),
+          I&apos;ve only highlighted the navbar and a few other sections in the
+          image above.
         </Paragraph>
 
         <Paragraph>
@@ -112,17 +112,17 @@ function CSSDecoded({ data }) {
         </Paragraph>
 
         <Paragraph>
-          Next, we have the <b>border</b>. It defines the Box&apos;s boundaries and
-          can be further customized with various styles. The border acts as a
-          visual divider, separating the content from the padding and gives the
-          Box a sense of structure.
+          Next, we have the <b>border</b>. It defines the Box&apos;s boundaries
+          and can be further customized with various styles. The border acts as
+          a visual divider, separating the content from the padding and gives
+          the Box a sense of structure.
         </Paragraph>
 
         <Paragraph>
-          Finally, we have the <b>margin</b> - the space between the Box and
-          its neighboring Boxes. The margin controls the distance between
-          Boxes, creating an overall composition and visual hierarchy of the
-          parent Box.
+          Finally, we have the <b>margin</b> - the space between the Box and its
+          neighboring Boxes. The margin controls the distance between Boxes,
+          creating an overall composition and visual hierarchy of the parent
+          Box.
         </Paragraph>
 
         <BlogHeader text={"Techniques for aligning Boxes"} />

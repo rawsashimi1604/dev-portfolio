@@ -217,8 +217,8 @@ function Tradeoffs({ data }) {
           <b>Science and Communication</b>, without adequate <b>Art</b> may
           neglect maintainability, leading to technical debt and long-term
           issues. Similarly, an excessive focus on <b>Art and Communication</b>{" "}
-          without adequate <b>Science</b>{" "}
-          could result in a product that lacks operational capabilities.
+          without adequate <b>Science</b> could result in a product that lacks
+          operational capabilities.
         </Paragraph>
 
         <Paragraph>
